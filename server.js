@@ -6,7 +6,6 @@ const server = express();
 const bodyParser = require('body-parser');
 server.use(bodyParser.json());
 
-
 // importing routes
 const userRoutes = require('./routes/userRoutes.js');
 const candidateRoutes = require('./routes/candidateRoutes.js');
